@@ -8,7 +8,7 @@ h1{
 .Name{
     color:orange;
 }
-section{
+.top-banner{
     display: flex;
     margin-bottom: 150px;
 }
@@ -32,13 +32,48 @@ section{
     background-repeat: no-repeat;
 }
 .bottom-banner{
+    display: flex;
+    margin-bottom: 150px;
+}
+.bottom-banner{
     background-image:url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
+.flexible{
+    display: flex;
+    margin-right: 50px;
+}
+.Experience{
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 100px;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    ;
+}
+.Experience-area{
+    background-image:url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#one{
+    border-left: 7px solid;
+    border-image: linear-gradient(green, cyan);
+    border-image-slice: 1;
+}
+#two{
+    border-left: 7px solid;
+    border-image: linear-gradient(darkred, purple);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    color: seagreen; 
+}
 
-
-               
 
 
 
