@@ -85,16 +85,16 @@ footer p{
 }
 @media (max-width:500px) {
     h1{
-        font-size: 15px;
+        font-size: 20px;
     }
     h3{
-        font-size: 9px;
+        font-size: 10px;
         color: darkcyan;
     }
     p{ 
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: rgb(52, 52, 53);
-        font-size: 8px;
+        font-size: 10px;
     }
     .Name{
         color:orange;
@@ -104,11 +104,11 @@ footer p{
         margin-bottom: 70px;
     }
     .GG{
-        width: 70%;
+        width: 80%;
         padding-left: 2%;
     }
     .GG img{
-        width: 80%;
+        width: 100%;
     }
     .link-button{
         font-size: 8px;
