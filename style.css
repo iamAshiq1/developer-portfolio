@@ -2,8 +2,18 @@ body{
     font-family: 'Poppins', sans-serif;
      margin: 0;
 }
+@media (min-width:500px) {
 h1{
-    font-size: 50px;
+    font-size: 40px;
+}
+h3{
+    font-size: 27px;
+    color: darkcyan;
+}
+p{ 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(38, 38, 39);
+    font-size: 20px;
 }
 .Name{
     color:orange;
@@ -13,19 +23,19 @@ h1{
     margin-bottom: 150px;
 }
 .GG{
-    width: 50%;
-    padding-left: 3%;
+    width: 80%;
+    padding-left: 5%;
 }
 .GG img{
-    width: 90%;
+    width: 80%;
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(orange, rgb(206, 101, 82));
+    background-image: linear-gradient(orange, rgb(230, 16, 16));
     color: white;
     font-weight: 600;
     padding: 10px 40px;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 .top-banner{
     background-image:url(images/top-banner.png);
@@ -45,14 +55,13 @@ h1{
     margin-right: 50px;
 }
 .Experience{
-    width: 40%;
+    width: 50%;
     margin-right: 5%;
     margin-left: 5%;
     margin-bottom: 100px;
     padding-left: 20px;
     border-radius: 10px;
-    box-shadow: 10px 10px 40px gray;
-    ;
+    box-shadow: 10px 10px 40px rgb(179, 177, 177);
 }
 .Experience-area{
     background-image:url(images/exp-bg.png);
@@ -66,13 +75,97 @@ h1{
 }
 #two{
     border-left: 7px solid;
-    border-image: linear-gradient(darkred, purple);
+    border-image: linear-gradient( blue, purple);
     border-image-slice: 1;
 }
 footer p{
     text-align: center;
-    color: seagreen; 
+    color: rgb(46, 52, 139); 
+     }
 }
+@media (max-width:500px) {
+    h1{
+        font-size: 15px;
+    }
+    h3{
+        font-size: 9px;
+        color: darkcyan;
+    }
+    p{ 
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(52, 52, 53);
+        font-size: 8px;
+    }
+    .Name{
+        color:orange;
+    }
+    .top-banner{
+        display: flex;
+        margin-bottom: 70px;
+    }
+    .GG{
+        width: 70%;
+        padding-left: 2%;
+    }
+    .GG img{
+        width: 80%;
+    }
+    .link-button{
+        font-size: 8px;
+        text-decoration: none;
+        background-image: linear-gradient(orange, rgb(230, 16, 16));
+        color: white;
+        font-weight: 500;
+        padding: 5px 10px;
+        border-radius: 20px;
+    }
+    .top-banner{
+        background-image:url(images/top-banner.png);
+        background-repeat: no-repeat;
+    }
+    .bottom-banner{
+        display: flex;
+        margin-bottom: 50px;
+    }
+    .bottom-banner{
+        background-image:url(images/dream-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .flexible{
+        display: flex;
+        margin-right: 20px;
+    }
+    .Experience{
+        width: 50%;
+        margin-right: 2%;
+        margin-left: 2%;
+        margin-bottom: 40px;
+        padding-left: 8px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 40px gray;
+    }
+    .Experience-area{
+        background-image:url(images/exp-bg.png);
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    #one{
+        border-left: 3px solid;
+        border-image: linear-gradient(green, cyan);
+        border-image-slice: 1;
+    }
+    #two{
+        border-left: 3px solid;
+        border-image: linear-gradient( blue, purple);
+        border-image-slice: 1;
+    }
+    footer p{
+        text-align: center;
+        color: rgb(46, 52, 139); 
+         }
+    }
+    
 
 
 
